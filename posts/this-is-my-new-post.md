@@ -1,6 +1,6 @@
 ---
-title: This is my new post
-date: 2020-06-28T21:40:16.118Z
+title: A brand new post
+date: 2020-06-28T22:50:03.409Z
 author: Fabio Basile
 summary: Oh my, this is such a cool system.
 tags:
