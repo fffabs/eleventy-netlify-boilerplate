@@ -2,6 +2,16 @@
 	--primary: #ff6dc9;
 	--secondary: white;
 	--background: #111;
+
+	--font-sans: 'SoehneWeb',
+		-apple-system,
+		BlinkMacSystemFont,
+		Segoe UI,
+		Helvetica,
+		Arial,
+		sans-serif,
+		Apple Color Emoji,
+		Segoe UI Emoji;
 }
 
 *,
@@ -11,6 +21,21 @@
 	line-height: 1em;
 	box-sizing: border-box;
 }
+
+/* Fonts */
+@font-face {
+	font-family: 'SoehneWeb';
+	font-display: swap;
+	src: url("/static/fonts/soehne-web-regular.woff2") format("woff2"), url("/static/fonts/soehne-web-regular.woff") format("woff")
+}
+
+@font-face {
+	font-family: 'SoehneWeb';
+	font-display: swap;
+	src: url("/static/fonts/soehne-web-medium.woff2") format("woff2"), url("/static/fonts/soehne-web-medium.woff") format("woff");
+	font-weight: bold
+}
+
 
 /* Animation */
 .animate-in {
@@ -47,7 +72,8 @@ body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: "Roobert", "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-family: var(--font-sans);
 }
 
 body {
@@ -242,7 +268,7 @@ button {
 	padding: 1em;
 	margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Roobert", "Avenir", "Avenir Next", sans-serif;
+	font-family: var(--font-sans);
 }
 
 input,
