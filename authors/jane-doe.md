@@ -1,5 +1,5 @@
 ---
-name: Jane Doe
-email: janedoe@example.com
-github: https://github.com/notjanedoe
+name: Fabio Basile
+email: hey@fabios.blog
+github: https://github.com/fffabs
 ---
