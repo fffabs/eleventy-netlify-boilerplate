@@ -1,6 +1,6 @@
 ---
-title: This is my other first post
-date: 2020-06-29T11:03:29.609Z
+title: This is my other first post number 2
+date: 2020-06-29T11:07:50.580Z
 author: Fabio Basile
 summary: Why contemplating our mortality can be a powerful catalyst for change
 tags:
