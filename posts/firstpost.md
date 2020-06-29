@@ -1,13 +1,10 @@
 ---
-title: This is my first post
-date: 2015-01-01T00:00:00.000Z
-author: John Appleseed
+title: This is my other first post
+date: 2020-06-29T11:03:29.609Z
+author: Fabio Basile
 summary: Why contemplating our mortality can be a powerful catalyst for change
-# tags:
-#   - tech
-#   - environment
-#   - politics
-#   - sport
+tags:
+  - tags
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
