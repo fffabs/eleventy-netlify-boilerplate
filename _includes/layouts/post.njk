@@ -7,7 +7,7 @@ section: post
 
   {{ layoutContent | safe }}
 
-  {% if tags %}
+  {# {% if tags %}
     <p>
     {% for tag in tags %}
       {%- if tag != "post" -%}
@@ -16,7 +16,7 @@ section: post
       {%- endif -%}
     {% endfor %}
     </p>
-  {% endif %}
+  {% endif %} #}
 
 </article>
 
