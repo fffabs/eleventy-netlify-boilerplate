@@ -8,6 +8,7 @@
           <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
         </li>
       {%- endfor %}
+      <li><a href="/feed.xml">RSS</a></li>
     </ul>
   </nav>
 </footer>

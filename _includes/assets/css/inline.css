@@ -36,15 +36,110 @@
 	font-weight: bold
 }
 
+p.newsletter {
+	padding-left: 1em;
+	margin-bottom: -20px;
+	font-weight: 700;
+}
+
+/* Mailchimp */
+#mc_embed_signup {
+	border: none;
+	margin-left: 1em;
+	text-align: left;
+}
+
+#mce-EMAIL {
+	font-family: var(--font-sans);
+	font-size: 1em;
+	color: white;
+	border: 1px solid #ABB0B2;
+	background-color:transparent;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	width: 400px;
+	align-items: center;
+}
+
+.button {
+	font-family: var(--font-sans);
+	font-size: 0.9em;
+	text-transform: uppercase;
+	color: var(--primary);
+	letter-spacing: .1em;
+	background-color: transparent;
+	border: 1px solid var(--primary);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+} /* Button Styles */
+
+.button:focus,
+.button:hover {
+	background-color: var(--primary);
+	color: var(--background);
+	animation: fadeIn .2s ease-in;
+}
+
+:-webkit-input-placeholder {
+	color: #ABB0B2;
+}
+
+/* WebKit browsers */
+:-moz-placeholder {
+	color: #ABB0B2;
+}
+
+/* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {
+	color: #ABB0B2;
+}
+
+/* Mozilla Firefox 19+ */
+:-ms-input-placeholder {
+	color: #ABB0B2;
+} /* Internet Explorer 10+ */
+
+
+.mce_inline_error {
+	font-family: var(--font-sans);
+	text-decoration: none !important;
+	color:white !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+	background-color: var(--background) !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+	border: 1px solid #e85c41 !important;
+}
+
+#mce-error-response,
+#mce-success-response {
+	font-family: var(--font-sans);
+	padding-bottom: 20px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: 0 !important;
+	color: white !important;
+}
+
 
 /* Animation */
 .animate-in {
-	animation: fadeIn .2s ease-in
+	animation: fadeIn .2s ease-in;
 }
 
 .animate-out {
 	transition: opacity .2s;
-	opacity: 0
+	opacity: 0;
 }
 
 @-webkit-keyframes fadeIn {
@@ -238,7 +333,6 @@ a[rel="tag"]:visited {
 	border: 1px solid var(--secondary);
 	background-color: var(--secondary);
 	color: var(--primary);
-	border-radius: .25em;
 	text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
@@ -285,6 +379,7 @@ button {
 	cursor: pointer;
 }
 
+
 @media screen and (max-width: 768px) {
 	:root {
 		font-size: 1.1rem;
@@ -293,5 +388,33 @@ button {
 	body {
 		display: block;
 		padding: 0px;
+		overflow-x: hidden;
+	}
+
+	/* Mailchimp form */
+	.mc-field-group {
+		display: block;
+	}
+
+	#mce-EMAIL {
+		width: 95%;
+		margin: 0;
+	}
+
+	#mce-error-response,
+	#mce-success-response {
+		font-family: var(--font-sans);
+		padding: 20px 0 20px 0;
+		max-width: 400px;
+		line-height: 1.2em;
+	}
+
+	#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+		padding: 20px 0 20px 0;
+	}
+
+	.button {
+		width: 95%;
+		margin: 0.5em 0 0 0;
 	}
 }
