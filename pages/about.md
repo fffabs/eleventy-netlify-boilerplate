@@ -6,27 +6,17 @@ eleventyNavigation:
   key: About
   order: 1
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+![Fabio's Photo](/static/img/Photo_Me_Front.jpg)
 
-## Our services
+I am Fabio Basile. A software engineer turned designer interested in creating simple, fun and interactive products.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+For over thirteen years I have designed interfaces, icons and identities for hundreds of businesses. I have worked with entrepreneurs like Whitney Wolfe of Bumble, automobile giants like BMW and Porsche, music powers like Polydor Records, and mobile innovators like Samsung and OnePlus.
 
-### Blue-sky thinking
+I enjoy public speaking and teaching about design and business. On average, I attend three public events per year.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I co-run a purposefully small [design and development studio](https://fortnight.studio) specialised in branding, interface and interaction design as well as mobile development currently working with some of the hottest startups around.
 
-#### Management frameworks
+The weekly newsletter I write is called The Small Things, it's all about the small findings I come across on the internet every week, from innovative technology to well designed experiences and life-changing events, it's a curated list of goodness.
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I engage in nerdy conversations on [Twitter](https://twitter.com/fffabs).
