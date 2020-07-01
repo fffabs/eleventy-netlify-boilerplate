@@ -22,6 +22,10 @@
 	box-sizing: border-box;
 }
 
+header .avatar {
+	width: 80px;
+}
+
 /* Fonts */
 @font-face {
 	font-family: 'SoehneWeb';
@@ -54,7 +58,7 @@ p.newsletter {
 	font-size: 1em;
 	color: white;
 	border: 1px solid #ABB0B2;
-	background-color:transparent;
+	background-color: transparent;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -75,7 +79,9 @@ p.newsletter {
 	width: 200px;
 	text-align: center;
 	cursor: pointer;
-} /* Button Styles */
+}
+
+/* Button Styles */
 
 .button:focus,
 .button:hover {
@@ -101,13 +107,15 @@ p.newsletter {
 /* Mozilla Firefox 19+ */
 :-ms-input-placeholder {
 	color: #ABB0B2;
-} /* Internet Explorer 10+ */
+}
+
+/* Internet Explorer 10+ */
 
 
 .mce_inline_error {
 	font-family: var(--font-sans);
 	text-decoration: none !important;
-	color:white !important;
+	color: white !important;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
@@ -191,7 +199,7 @@ code {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-feature-settings: "kern", "liga", "onum";
 	line-height: 1.7rem;
 
@@ -229,8 +237,12 @@ footer {
 footer {
 	position: relative;
 	z-index: 2;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	padding-bottom: 3em;
+}
+
+ul>li:first-child {
+	text-decoration: none;
 }
 
 main {
@@ -273,8 +285,8 @@ header>em a[href] {
 }
 
 /* Footer Nav */
-footer nav #home_logo {
-	text-decoration: none;
+footer nav a[href] {
+	text-decoration: none !important;
 }
 
 footer nav ul {
@@ -389,6 +401,11 @@ button {
 		display: block;
 		padding: 0px;
 		overflow-x: hidden;
+	}
+
+	footer {
+		font-size: .9em;
+		align-items: center;
 	}
 
 	/* Mailchimp form */
