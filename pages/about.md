@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 1
 ---
 
-![Fabio's Photo](/static/img/Photo_Me_Front.jpg)
+![Fabio's Photo](/static/img/Photo_Me_Side.jpg)
 
 I am Fabio Basile. A software engineer turned designer interested in creating simple, fun and interactive products.
 
